@@ -11,8 +11,12 @@ up/d:
 
 up/b/d:
 	docker-compose up --build -d
+
 ps:
 	docker-compose ps
+
+down:
+	docker-compose down
 
 stop:
 	docker stop  $(DBContainerName)

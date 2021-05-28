@@ -1,4 +1,4 @@
-DBContainerName=mysql
+DBContainerName=mariadb
 
 build:
 	docker-compose build
